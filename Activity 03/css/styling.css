@@ -1,0 +1,32 @@
+/*******************TAG SELECTORS********************/
+/*Changing background color*/
+body {
+  background-color: burlywood;
+}
+
+h3 {
+  color: red;
+  font-size: 50px;
+}
+
+div {
+  background-color: aliceblue;
+  border: dotted;
+  padding-left: 25px;
+}
+/********************CLASS SELECTORS*********************/
+.top-container {
+  background-color: blanchedalmond;
+  width: 700px;
+  height: 300px;
+}
+
+.bottom-container {
+  background-color: rgb(118, 178, 193);
+  width: 700px;
+  height: 200px;
+}
+/********************ID SELECTORS************************/
+:required {
+  border: 2px solid green;
+}
